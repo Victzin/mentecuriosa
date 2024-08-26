@@ -1,0 +1,62 @@
+body {
+    color: white;
+    background: black;
+    font-family: "Rajdhani", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px #7fb1ff;
+    padding: 16px;
+    font-size: 42px;
+    color: #7fb1ff;
+
+}
+
+.chamada {
+    background: #5f707f;
+    padding-bottom: 80px;
+    padding-top: 80;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 20;
+}
+
+img {
+    height: 200px;
+}
+
+.era-geológica {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.eras-geologicas{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.era-geológica img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.era-geológica img:hover {
+    opacity: 1.0;
+    border: 2px solid #cd853f;
+}
+
+.eras-geologicas h2 {
+    color: 7fb1ff;
+}
